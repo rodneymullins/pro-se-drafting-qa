@@ -1,0 +1,50 @@
+{
+  "id": "motion-fill-blank",
+  "title": "Fill in the Motion Template",
+  "instructions": "Write a motion to stay surplus distribution by filling in the template below. Replace every [BRACKET] with the correct value from the FACTS. Write the completed motion to `motion.md` in the output directory. Do not add anything beyond the template.\n\nFACTS:\n- Court: Montgomery County Court of Common Pleas\n- Case No: 2025 CV 04438\n- Party: Rodney D. Mullins, pro se\n- Surplus: $94,452.62\n- Competing claim: AUSA Adam Tieger (DOJ/HUD), no evidence\n- Defect 1: FedEx service, Ohio Civ.R. 4.1(A)(1)(b)\n- Defect 2: fraudulent Suggestion of Death by Fornash\n- Defect 3: sheriff's sale during stayed appeal\n\nTEMPLATE (fill in the brackets, keep everything else verbatim):\n\nMOTION TO STAY DISTRIBUTION OF SURPLUS FUNDS\n\nIN THE [COURT]\nCase No. [CASE NUMBER]\n[PARTY], pro se\n\n1. A sheriff's sale produced surplus of [SURPLUS AMOUNT].\n2. A competing claim was filed by [COMPETING CLAIMANT] with no evidence.\n3. The foreclosure decree is void due to [DEFECT 1].\n4. A [DEFECT 2] was filed.\n5. The sale occurred during a [DEFECT 3].\n\nWHEREFORE, the Court should stay distribution of the surplus.\n\nCertificate of service: served on all parties.",
+  "deliverables": {
+    "motion.md": "motion.md"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Court filled as Montgomery County Court of Common Pleas",
+      "match_criteria": "PASS if the court is Montgomery County Court of Common Pleas."
+    },
+    {
+      "id": "C-002",
+      "title": "Case number filled as 2025 CV 04438",
+      "match_criteria": "PASS if the case number is 2025 CV 04438."
+    },
+    {
+      "id": "C-003",
+      "title": "Party filled as Rodney D. Mullins",
+      "match_criteria": "PASS if the party is Rodney D. Mullins."
+    },
+    {
+      "id": "C-004",
+      "title": "Surplus filled as $94,452.62",
+      "match_criteria": "PASS if the surplus is $94,452.62."
+    },
+    {
+      "id": "C-005",
+      "title": "Competing claimant filled as AUSA Adam Tieger",
+      "match_criteria": "PASS if the competing claimant is AUSA Adam Tieger."
+    },
+    {
+      "id": "C-006",
+      "title": "Defect 1 filled as FedEx service defect",
+      "match_criteria": "PASS if defect 1 is the FedEx service defect."
+    },
+    {
+      "id": "C-007",
+      "title": "Defect 2 filled as fraudulent Suggestion of Death",
+      "match_criteria": "PASS if defect 2 is the fraudulent Suggestion of Death."
+    },
+    {
+      "id": "C-008",
+      "title": "Defect 3 filled as stayed appeal",
+      "match_criteria": "PASS if defect 3 is the stayed appeal."
+    }
+  ]
+}

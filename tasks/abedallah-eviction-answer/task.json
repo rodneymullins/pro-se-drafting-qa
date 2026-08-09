@@ -1,0 +1,75 @@
+{
+  "id": "abedallah-eviction-answer",
+  "title": "Draft Answer with Affirmative Defenses — Abedallah Wrongful Eviction",
+  "instructions": "Draft an Answer with Affirmative Defenses to a wrongful eviction / trespass complaint arising from the void eviction of Rodney D. Mullins from 5506 Arcola Ave on May 1, 2026. The eviction was executed under a void Writ of Restitution (R.C. 1923) instead of the proper Writ of Possession (R.C. 2327.02). Abedallah filed the Praecipe as 'Attorney/Purchaser' without an Ohio law license — Unauthorized Practice of Law under R.C. 4705.01. The Clerk issued the wrong writ, making the eviction ultra vires and void. Output: `answer-abedallah.docx`.",
+  "deliverables": {
+    "answer-abedallah.docx": "answer-abedallah.docx"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Caption identifies correct court",
+      "match_criteria": "PASS if the caption identifies the Montgomery County Court of Common Pleas. FAIL if the court name is missing, incomplete, or incorrect."
+    },
+    {
+      "id": "C-002",
+      "title": "Caption includes case number",
+      "match_criteria": "PASS if the caption includes the case number for the Abedallah civil action. FAIL if the case number is missing or incorrect."
+    },
+    {
+      "id": "C-003",
+      "title": "Identifies Rodney D. Mullins as Defendant pro se",
+      "match_criteria": "PASS if the caption identifies Rodney D. Mullins as Defendant appearing pro se. FAIL if the party name is missing or materially incorrect."
+    },
+    {
+      "id": "C-004",
+      "title": "Identifies Eptesam Abedallah as Plaintiff",
+      "match_criteria": "PASS if the caption identifies Eptesam Abedallah as Plaintiff. FAIL if the party name is missing or materially incorrect."
+    },
+    {
+      "id": "C-005",
+      "title": "Responds to every numbered paragraph",
+      "match_criteria": "PASS if the Answer responds to EVERY numbered paragraph of the complaint (admit/deny/partial/lack-info). FAIL if any paragraph is left unaddressed — a missed paragraph is deemed admitted under Civ.R. 8(D)."
+    },
+    {
+      "id": "C-006",
+      "title": "Raises void Writ of Restitution defense",
+      "match_criteria": "PASS if the Answer raises the defense that the eviction was executed under a void Writ of Restitution (R.C. 1923) instead of the proper Writ of Possession (R.C. 2327.02). FAIL if this defense is absent."
+    },
+    {
+      "id": "C-007",
+      "title": "Raises UPL defense (R.C. 4705.01)",
+      "match_criteria": "PASS if the Answer raises the Unauthorized Practice of Law defense — Abedallah filed the Praecipe as 'Attorney/Purchaser' without an Ohio law license. FAIL if the UPL defense is absent."
+    },
+    {
+      "id": "C-008",
+      "title": "Raises ultra vires / void eviction defense",
+      "match_criteria": "PASS if the Answer argues the eviction was ultra vires and void because the Clerk issued the wrong writ. FAIL if the voidness argument is absent."
+    },
+    {
+      "id": "C-009",
+      "title": "Includes affirmative defenses",
+      "match_criteria": "PASS if the Answer includes at least 3 distinct affirmative defenses (e.g., failure to state a claim, void judgment, unclean hands, wrongful eviction). FAIL if no affirmative defenses are asserted."
+    },
+    {
+      "id": "C-010",
+      "title": "Includes counterclaims if applicable",
+      "match_criteria": "PASS if the Answer asserts counterclaims for wrongful eviction, trespass, conversion, or property destruction where the facts support them. FAIL if the Answer omits viable counterclaims."
+    },
+    {
+      "id": "C-011",
+      "title": "Includes certificate of service",
+      "match_criteria": "PASS if the Answer includes a certificate of service identifying the parties served and the method (PRO e-filing for Montgomery County). FAIL if the certificate of service is missing."
+    },
+    {
+      "id": "C-012",
+      "title": "Includes AI use disclosure",
+      "match_criteria": "PASS if the Answer includes the AI use disclosure required by Montgomery County Local Rule 12.08. FAIL if the disclosure is missing."
+    },
+    {
+      "id": "C-013",
+      "title": "No fabricated facts or citations",
+      "match_criteria": "PASS if no factual assertion or citation is fabricated. Every fact must be verifiable from the case record. FAIL if any fact or citation appears invented."
+    }
+  ]
+}

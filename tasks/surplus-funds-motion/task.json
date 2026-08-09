@@ -1,0 +1,80 @@
+{
+  "id": "surplus-funds-motion",
+  "title": "Draft Emergency Motion to Stay Surplus Distribution",
+  "instructions": "Draft an Emergency Motion to Stay Distribution of Foreclosure Surplus Funds in 2025 CV 04438 (Montgomery County Court of Common Pleas). The surplus is $94,452.62 from the sheriff's sale of 5506 Arcola Ave. AUSA Adam Tieger (DOJ/HUD) filed a motion claiming entitlement to the surplus with ZERO supporting evidence (no note, no recorded mortgage, no ledger, no affidavit of debt) and defective service. The foreclosure decree is VOID ab initio due to: (1) FedEx service defect under Ohio Civ.R. 4.1(A)(1)(b), (2) fraudulent Suggestion of Death, (3) sheriff's sale during a stayed appeal. Output: `motion-to-stay-surplus.docx`.",
+  "deliverables": {
+    "motion-to-stay-surplus.docx": "motion-to-stay-surplus.docx"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Caption identifies correct court",
+      "match_criteria": "PASS if the caption identifies the Montgomery County Court of Common Pleas. FAIL if the court name is missing, incomplete, or incorrect."
+    },
+    {
+      "id": "C-002",
+      "title": "Caption includes case number 2025 CV 04438",
+      "match_criteria": "PASS if the caption includes case number 2025 CV 04438 (or 2025CV04438). FAIL if the case number is missing or incorrect."
+    },
+    {
+      "id": "C-003",
+      "title": "Caption identifies Rodney D. Mullins as pro se party",
+      "match_criteria": "PASS if the caption identifies Rodney D. Mullins as a party appearing pro se. FAIL if the party name is missing or materially incorrect."
+    },
+    {
+      "id": "C-004",
+      "title": "States the surplus amount $94,452.62",
+      "match_criteria": "PASS if the motion states the surplus amount of $94,452.62 from the sheriff's sale. FAIL if the amount is missing or incorrect."
+    },
+    {
+      "id": "C-005",
+      "title": "Identifies AUSA Tieger's motion as zero-evidence",
+      "match_criteria": "PASS if the motion states that AUSA Tieger's/DOJ's claim to the surplus contains no promissory note, no recorded mortgage, no ledger, and no affidavit of debt. FAIL if the motion does not challenge the evidentiary basis of the competing claim."
+    },
+    {
+      "id": "C-006",
+      "title": "Raises FedEx service defect (Civ.R. 4.1(A)(1)(b))",
+      "match_criteria": "PASS if the motion raises the FedEx service defect under Ohio Civ.R. 4.1(A)(1)(b) — service docketed without physical signed proof. FAIL if the service defect is not raised."
+    },
+    {
+      "id": "C-007",
+      "title": "Raises fraudulent Suggestion of Death",
+      "match_criteria": "PASS if the motion references the fraudulent Suggestion of Death filed by Fornash/Padgett claiming Mullins was deceased. FAIL if not mentioned."
+    },
+    {
+      "id": "C-008",
+      "title": "Raises sheriff's sale during stayed appeal",
+      "match_criteria": "PASS if the motion states the sheriff's sale was executed while the appeal was improperly stayed. FAIL if not mentioned."
+    },
+    {
+      "id": "C-009",
+      "title": "Frames foreclosure decree as void",
+      "match_criteria": "PASS if the motion argues the foreclosure decree is void ab initio due to the service defect, fraudulent Suggestion of Death, and sale during stayed appeal. FAIL if the voidness argument is absent."
+    },
+    {
+      "id": "C-010",
+      "title": "Requests specific relief (stay distribution)",
+      "match_criteria": "PASS if the motion requests a specific stay of surplus distribution pending resolution of the appeal and the competing claim. FAIL if the requested relief is vague or absent."
+    },
+    {
+      "id": "C-011",
+      "title": "Includes certificate of service",
+      "match_criteria": "PASS if the motion includes a certificate of service identifying the parties served and the method. FAIL if the certificate of service is missing."
+    },
+    {
+      "id": "C-012",
+      "title": "Includes AI use disclosure",
+      "match_criteria": "PASS if the motion includes the AI use disclosure required by Montgomery County Local Rules (Rule 12.08). FAIL if the disclosure is missing."
+    },
+    {
+      "id": "C-013",
+      "title": "Every factual claim cites a source",
+      "match_criteria": "PASS if every factual assertion (surplus amount, service defect, Suggestion of Death, sale date) is supported by a citation to a document, docket entry, or date. FAIL if material facts are asserted without any source."
+    },
+    {
+      "id": "C-014",
+      "title": "No fabricated case law",
+      "match_criteria": "PASS if no case citation is fabricated or unverifiable. Any case law cited must be real and verifiable. FAIL if a citation appears invented or cannot be verified."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "simple-motion",
+  "title": "Draft a Simple Motion to Stay Surplus Distribution",
+  "instructions": "Draft a short motion to stay distribution of foreclosure surplus funds. ALL facts you need are provided here — do not search for anything else. Write the motion to a file named `motion.md` in the output directory.\n\nFACTS (use these exactly):\n- Court: Montgomery County Court of Common Pleas\n- Case No: 2025 CV 04438\n- Party: Rodney D. Mullins, pro se\n- Surplus amount: $94,452.62\n- Competing claim by AUSA Adam Tieger (DOJ/HUD) with no evidence\n- Foreclosure decree is void ab initio\n- FedEx service defect under Ohio Civ.R. 4.1(A)(1)(b)\n- Fraudulent Suggestion of Death filed by Fornash\n- Sheriff's sale executed during stayed appeal\n\nStructure the motion with: (1) caption, (2) statement of facts, (3) argument, (4) prayer for relief, (5) certificate of service.",
+  "deliverables": {
+    "motion.md": "motion.md"
+  },
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Caption identifies Montgomery County Court of Common Pleas",
+      "match_criteria": "PASS if the caption identifies the Montgomery County Court of Common Pleas."
+    },
+    {
+      "id": "C-002",
+      "title": "Caption includes case number 2025 CV 04438",
+      "match_criteria": "PASS if the caption includes case number 2025 CV 04438."
+    },
+    {
+      "id": "C-003",
+      "title": "Identifies Rodney D. Mullins as pro se party",
+      "match_criteria": "PASS if the caption identifies Rodney D. Mullins as a party appearing pro se."
+    },
+    {
+      "id": "C-004",
+      "title": "States surplus amount $94,452.62",
+      "match_criteria": "PASS if the motion states the surplus amount of $94,452.62."
+    },
+    {
+      "id": "C-005",
+      "title": "Mentions AUSA Tieger's zero-evidence claim",
+      "match_criteria": "PASS if the motion mentions AUSA Tieger's claim to the surplus with no supporting evidence."
+    },
+    {
+      "id": "C-006",
+      "title": "Mentions FedEx service defect",
+      "match_criteria": "PASS if the motion mentions the FedEx service defect under Ohio Civ.R. 4.1(A)(1)(b)."
+    },
+    {
+      "id": "C-007",
+      "title": "Mentions fraudulent Suggestion of Death",
+      "match_criteria": "PASS if the motion mentions the fraudulent Suggestion of Death filed by Fornash."
+    },
+    {
+      "id": "C-008",
+      "title": "Mentions sheriff's sale during stayed appeal",
+      "match_criteria": "PASS if the motion mentions the sheriff's sale was executed during a stayed appeal."
+    },
+    {
+      "id": "C-009",
+      "title": "Requests specific relief (stay distribution)",
+      "match_criteria": "PASS if the motion requests a specific stay of surplus distribution."
+    },
+    {
+      "id": "C-010",
+      "title": "Includes certificate of service",
+      "match_criteria": "PASS if the motion includes a certificate of service."
+    }
+  ]
+}
