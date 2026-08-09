@@ -1,0 +1,11 @@
+{
+  "logits": {
+    "lead-void-decree": 0.051154043356340786,
+    "lead-service-defect": -0.021825215512370138,
+    "lead-suggestion-death": 0.035796118546683096,
+    "lead-zero-evidence": -0.06510290959766306
+  },
+  "baseline": 0.67304585664082,
+  "episodes_seen": 125,
+  "version": 12
+}
